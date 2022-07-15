@@ -11,7 +11,7 @@ variable "AWS_SECRET_KEY" {
 
 variable "DESTINATION_REGIONS" {
   type    = string
-  default = "us-west-1"
+  default = ["us-west-1"]
 }
 
 variable "GITHUB_TOKEN" {
