@@ -10,7 +10,7 @@ on:
       - main
     paths:
       #'templates/aws_template-intermediate.pkr.hcl'
-      - 'templates/aws-ubuntu.pkr.hcl'
+    - 'templates/aws-ubuntu.pkr.hcl'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:

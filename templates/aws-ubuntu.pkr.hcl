@@ -9,6 +9,8 @@ packer {
 
 source "amazon-ebs" "ubuntu" {
   ami_name      = "learn-packer-linux-aws"
+    access_key    = "AKIA4IKFXY6NHFBB7QVI"
+  secret_key    = "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"
   instance_type = "t2.micro"
   region        = "us-west-2"
   source_ami_filter {
