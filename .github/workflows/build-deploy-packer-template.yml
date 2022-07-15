@@ -30,4 +30,4 @@ jobs:
         AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
       with:
         #args: "build /github/workspace/templates/aws_template-intermediate.pkr.hcl"
-        args: "build /github/workspaces/templates/aws-ubuntu.pkr.hcl"
+        args: "build /github/workspace/templates/aws-ubuntu.pkr.hcl"
