@@ -1,0 +1,9 @@
+- name: Setup Packer
+  # You may pin to the exact commit or the version.
+  # uses: hashicorp-contrib/setup-packer@b9dd0b644cd73b8fe7ae5e96f6387015d25401ca
+  uses: hashicorp-contrib/setup-packer@v1.0.0
+  with:
+    # The API token for the action to get the latest release of Packer from GitHub API
+    github-token: # optional, default is ${{ github.token }}
+    # The version to use
+    packer-version: # optional, default is latest
